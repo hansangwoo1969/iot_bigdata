@@ -10,7 +10,7 @@ C:\Users\SEC\bin <- 이런 디렉토리 구조가 되어야 함
 
 C:\Users\SEC\etc\gerrit.config 파일 설정
 canonicalWebUrl <- 본인 컴퓨터 이름으로 (도스 command창에서 hostname 으로 검색) 변경
-user <- 본인 컴퓨터 이름으로 변경
+user <- USER20-PC 본인 컴퓨터 이름으로 변경
 javaHome <- jdk 경로 복사
 ex) C:\Program Files\Java\jdk-12
 
@@ -18,7 +18,7 @@ ex) C:\Program Files\Java\jdk-12
 C:\\Program Files\\Java\\jdk-12
 
 
-* 서버 구동
+* 서버 구동 =====> pc종료시 꺼지고, pc새로 켜면 다시 구동해서 사용
 도스 command 실행(윈도우+R => cmd)
 cd C:\Users\SEC\gerrit
 run.cmd
@@ -114,11 +114,11 @@ USER@USER9-PC MINGW64 ~
 
 ssh-keygen -t rsa		(이미 존재하면 Overwrite 및 디폴트로 생성)
 .ssh/id_rsa.pub	(Public Key 내용 복사)
-C:\Users\USER\.ssh\id_rsa.pub
+C:\Users\USER\.ssh\id_rsa.pub   탐색기로 순서따라가고, 노트패드로 열어 볼 것,,,
 
 <GIT 서버 화면>
 - 크롬 브라우저 실행
-- http://user9-pc:8080 접속
+- http://USER20-PC:8080 접속
 **** 기본 설정
 오른쪽 상단 계정 => administrator 로그인
 administrator 계정 ==> Settings ==> SSH Public Keys ==> Add Key로 추가/붙여 넣기 ==> Add 버튼
@@ -134,9 +134,9 @@ $ git config --global user.email "dev0NN@test.com"
 
 
 * 프로젝트 생성
-Git 서버/Gerrit 로그인		(http://hrdc501-00:8080)
+Git 서버/Gerrit 로그인		(http://user20-pc:8080)
 왼쪽 상단 메뉴 Projects ==> Create New Project
-Project Name: dev001	
+Project Name: dev101	
 Rights Inherit From: All Projects		(프로젝트 권한 상속)
 Create initial emtpy commit 체크		(반드시 체크)
 Create Project 버튼		(프로젝트 최종 생성)
@@ -150,8 +150,8 @@ Git Bash 가서
 $ cd /c
 $ mkdir Git_Local_Repository
 $ cd Git_Local_Repository
-$ git clone ssh://dev0NN@HRDC501-00:29418/dev001proj		(계정 명 dev001을 각자 맞게 변경)
-$ cd dev0NNproj
+$ git clone ssh://dev101@user20-pc:29418/dev101proj		(계정 명 dev101을 각자 맞게 변경)
+$ cd dev0NN 
 $ git status
 $ git log
 $ gitk --all		(백그라운드로 띄우려면 gitk --all &)

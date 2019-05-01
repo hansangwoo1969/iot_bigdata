@@ -3,7 +3,7 @@
 git config --global core.editor notepad
 notepad <파일명> 편집 후 저장
 
-http://hrdc504-00:8080
+http://user20-pc:8080
 
 * 기본 파일 추가 및 커밋
 
