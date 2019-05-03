@@ -10,7 +10,6 @@ void main(){
 
 
 	// 변수에 상수값 할당
-	//  = 대입연산자 (assignment operator)
 	input_number1 = 3;
 	input_number2 = 4;
 	
