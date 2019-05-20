@@ -1,4 +1,5 @@
 #include <stdio.h>
+#pragma warning (disable:4996)
 int NumberCompare(int num1, int num2);
 
 void main(){

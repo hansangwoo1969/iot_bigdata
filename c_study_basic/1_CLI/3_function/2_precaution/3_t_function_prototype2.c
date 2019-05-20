@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#pragma warning (disable:4996)
 
 // 함수 원형 (Function Prototype)
 void my_add(void);

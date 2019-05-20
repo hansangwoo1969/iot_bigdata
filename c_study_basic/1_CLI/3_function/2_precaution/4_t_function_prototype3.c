@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#pragma warning (disable:4996)
 
 // 함수 원형 (Function Prototype)
 // 아래와 같이 함수 정의부가 함수 호출보다 앞에 정의가 되어있는 상황에서
