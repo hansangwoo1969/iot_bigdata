@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello_world", "Hello_world\Hello_world.vcxproj", "{6862AED9-1C39-4AFD-A5AA-7CD5379DD272}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utilize_basic_IDE_function", "utilize_basic_IDE_function\utilize_basic_IDE_function.vcxproj", "{CB0C1F3F-5921-4CCA-BC19-66F7E50EA0CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2602F0E-EF55-41A2-9769-3321F5510A96}"
+	ProjectSection(SolutionItems) = preProject
+		basic_template.c = basic_template.c
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Debug_practice", "Debug_practice\Debug_practice.vcxproj", "{17E42B2B-A07F-415D-9D28-A0029FD9A450}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Add_Existed_file", "Add_Existed_file\Add_Existed_file.vcxproj", "{BA2E8FAC-ABBF-43DF-8F63-DB12E6195972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WAREHOUSE", "WAREHOUSE", "{C0BA4BCE-0013-4F42-B9EE-B730A31CBC25}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\1_t_return_without_value.c = ..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\1_t_return_without_value.c
+		..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\2_t_function_prototype.c = ..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\2_t_function_prototype.c
+		..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\3_t_function_prototype2.c = ..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\3_t_function_prototype2.c
+		..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\4_t_function_prototype3.c = ..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\4_t_function_prototype3.c
+		..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\5_multi_return.c = ..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\5_multi_return.c
+		..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\6_AbsoCompare.c = ..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\6_AbsoCompare.c
+		..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\7_t_word_spacing.c = ..\..\iot_bigdata\c_study_basic\1_CLI\3_function\2_precaution\7_t_word_spacing.c
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6862AED9-1C39-4AFD-A5AA-7CD5379DD272}.Debug|x64.ActiveCfg = Debug|x64
+		{6862AED9-1C39-4AFD-A5AA-7CD5379DD272}.Debug|x64.Build.0 = Debug|x64
+		{6862AED9-1C39-4AFD-A5AA-7CD5379DD272}.Debug|x86.ActiveCfg = Debug|Win32
+		{6862AED9-1C39-4AFD-A5AA-7CD5379DD272}.Debug|x86.Build.0 = Debug|Win32
+		{6862AED9-1C39-4AFD-A5AA-7CD5379DD272}.Release|x64.ActiveCfg = Release|x64
+		{6862AED9-1C39-4AFD-A5AA-7CD5379DD272}.Release|x64.Build.0 = Release|x64
+		{6862AED9-1C39-4AFD-A5AA-7CD5379DD272}.Release|x86.ActiveCfg = Release|Win32
+		{6862AED9-1C39-4AFD-A5AA-7CD5379DD272}.Release|x86.Build.0 = Release|Win32
+		{CB0C1F3F-5921-4CCA-BC19-66F7E50EA0CC}.Debug|x64.ActiveCfg = Debug|x64
+		{CB0C1F3F-5921-4CCA-BC19-66F7E50EA0CC}.Debug|x64.Build.0 = Debug|x64
+		{CB0C1F3F-5921-4CCA-BC19-66F7E50EA0CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{CB0C1F3F-5921-4CCA-BC19-66F7E50EA0CC}.Debug|x86.Build.0 = Debug|Win32
+		{CB0C1F3F-5921-4CCA-BC19-66F7E50EA0CC}.Release|x64.ActiveCfg = Release|x64
+		{CB0C1F3F-5921-4CCA-BC19-66F7E50EA0CC}.Release|x64.Build.0 = Release|x64
+		{CB0C1F3F-5921-4CCA-BC19-66F7E50EA0CC}.Release|x86.ActiveCfg = Release|Win32
+		{CB0C1F3F-5921-4CCA-BC19-66F7E50EA0CC}.Release|x86.Build.0 = Release|Win32
+		{17E42B2B-A07F-415D-9D28-A0029FD9A450}.Debug|x64.ActiveCfg = Debug|x64
+		{17E42B2B-A07F-415D-9D28-A0029FD9A450}.Debug|x64.Build.0 = Debug|x64
+		{17E42B2B-A07F-415D-9D28-A0029FD9A450}.Debug|x86.ActiveCfg = Debug|Win32
+		{17E42B2B-A07F-415D-9D28-A0029FD9A450}.Debug|x86.Build.0 = Debug|Win32
+		{17E42B2B-A07F-415D-9D28-A0029FD9A450}.Release|x64.ActiveCfg = Release|x64
+		{17E42B2B-A07F-415D-9D28-A0029FD9A450}.Release|x64.Build.0 = Release|x64
+		{17E42B2B-A07F-415D-9D28-A0029FD9A450}.Release|x86.ActiveCfg = Release|Win32
+		{17E42B2B-A07F-415D-9D28-A0029FD9A450}.Release|x86.Build.0 = Release|Win32
+		{BA2E8FAC-ABBF-43DF-8F63-DB12E6195972}.Debug|x64.ActiveCfg = Debug|x64
+		{BA2E8FAC-ABBF-43DF-8F63-DB12E6195972}.Debug|x64.Build.0 = Debug|x64
+		{BA2E8FAC-ABBF-43DF-8F63-DB12E6195972}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA2E8FAC-ABBF-43DF-8F63-DB12E6195972}.Debug|x86.Build.0 = Debug|Win32
+		{BA2E8FAC-ABBF-43DF-8F63-DB12E6195972}.Release|x64.ActiveCfg = Release|x64
+		{BA2E8FAC-ABBF-43DF-8F63-DB12E6195972}.Release|x64.Build.0 = Release|x64
+		{BA2E8FAC-ABBF-43DF-8F63-DB12E6195972}.Release|x86.ActiveCfg = Release|Win32
+		{BA2E8FAC-ABBF-43DF-8F63-DB12E6195972}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37485DC9-456E-46E6-8034-9F07DF7235F9}
+	EndGlobalSection
+EndGlobal
