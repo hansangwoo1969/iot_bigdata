@@ -1,0 +1,23 @@
+#include <stdio.h>
+#pragma warning (disable:4996)
+
+void main() {
+	int num1=100;
+	int *pnum;
+	
+	pnum = &num1;
+
+	printf("num1: %d \n", num1);
+	printf("*pnum: %d \n", *pnum);
+
+	num1=200;
+	printf("num1: %d \n", num1);
+	printf("*pnum: %d \n", *pnum);
+
+	*pnum=300;
+	printf("num1: %d \n", num1);
+	printf("*pnum: %d \n", *pnum);
+
+
+
+}
