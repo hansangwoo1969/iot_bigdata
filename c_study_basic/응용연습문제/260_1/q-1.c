@@ -1,20 +1,16 @@
 #include <stdio.h>
 #pragma warning (disable:4996)
 
-void main(void) {
-	char str[100];
-	int len = 0, i, max = str[0];
+void main() {
+	int* ptr1 = 0x0010;
+	double* ptr2 = 0x0010;
 
-	printf("영 단어 입력: ");
-	scanf("%s", str);
+	printf("%p %p \n", ptr1 + 1, ptr1 + 2);
+	printf("%p %p \n", ptr2 + 1, ptr2 + 2);
 
-	while (str[len] != 0)    // 문자열 요소가 없을 때 까지   while (str(len) != '\n'과 같음
-		len++;
+	printf("%p %p \n", ptr1, ptr2);
+	ptr1++;
+	ptr2++;
 
-	for (i = 0; i < len; i++) {
-		if (max < str[i])
-			max = str[i];
-	}
-	printf("아스키코드값이 가장 큰 문자: %c \n", max);
-
+	printf("%p %p \n", ptr1, ptr2);
 }

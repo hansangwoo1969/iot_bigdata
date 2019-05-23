@@ -1,2 +1,4 @@
 ﻿  q-1.c
+C:\iot_bigdata\c_study_basic\응용연습문제\260_1\q-1.c(5): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\iot_bigdata\c_study_basic\응용연습문제\260_1\q-1.c(6): warning C4047: '초기화 중': 'double *'의 간접 참조 수준이 'int'과(와) 다릅니다.
   260_1.vcxproj -> C:\iot_bigdata\c_study_basic\응용연습문제\Debug\260_1.exe
