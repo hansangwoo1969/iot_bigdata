@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\1_Beginner\2_control_repetition\1_repetition\4_continue_break\1_190_break_basic.c" />
+    <ClCompile Include="..\..\응용연습문제\2_challenge_programming2\0_332_q5_example.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

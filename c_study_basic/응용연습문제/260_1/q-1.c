@@ -1,16 +1,33 @@
 #include <stdio.h>
 #pragma warning (disable:4996)
 
-void main() {
-	int* ptr1 = 0x0010;
-	double* ptr2 = 0x0010;
+// 회문 판단(함수)
+// 문자열 길이, 
 
-	printf("%p %p \n", ptr1 + 1, ptr1 + 2);
-	printf("%p %p \n", ptr2 + 1, ptr2 + 2);
 
-	printf("%p %p \n", ptr1, ptr2);
-	ptr1++;
-	ptr2++;
+//void is_palindrome(char *arr, int size)
 
-	printf("%p %p \n", ptr1, ptr2);
+
+int main(void) {
+	char str[50];
+	int i, len;
+
+	printf("문자열 입력: ");
+	scanf("%s", &str);
+
+	for (i = 0; str[i] != 0; i++) {
+		len = i;
+	}
+//	len = sizeof(str) / sizeof(char);
+
+	for (i = 0; i < len - i; i++) {
+		if (str[i] != str[len - i])
+			break;
+	}
+	if (i > len / 2){
+		printf("회문입니다\n");
+    }else {
+		printf("회문이 아닙니다\n");
+	}
+	return 0;
 }
