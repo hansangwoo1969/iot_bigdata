@@ -8,6 +8,8 @@ int main (void){
 	int *ptr = arr;
 	int i;
 	for (i=0; i<5; i++){
+	//	*ptr += 2;      // ptr에 저장된 값을 변경시킴
+	//	ptr++;
 		*(ptr + i) += 2;
 	}
 

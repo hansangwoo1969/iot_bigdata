@@ -11,10 +11,5 @@ int main(void){
 	printf("%d ", *ptr); ptr--;  
 	printf("%d ", *ptr); printf("\n");
 
-
-
-
-
 	return 0;
-
 }
