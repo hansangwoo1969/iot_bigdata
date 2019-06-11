@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#pragma warning(disable:4996)
 void MaxAndMin(int *arr, int size, int **mxPtr, int **mnPtr){
 	int *max, *min;
 	int i;
@@ -11,8 +11,8 @@ void MaxAndMin(int *arr, int size, int **mxPtr, int **mnPtr){
 		if(*min > arr[i])
 			min=&arr[i];
 	}
-	*mxPtr=max;
-	*mnPtr=min;
+//	*mxPtr=max;
+//	*mnPtr=min;
 }
 
 int main (void){

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\3_internal_function\2_string\q21-2_1_answer ref.c">
+    <ClCompile Include="..\..\응용연습문제\24_1_1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

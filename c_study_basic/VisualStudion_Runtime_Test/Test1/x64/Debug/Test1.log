@@ -1,5 +1,2 @@
-﻿  q21-2_1_answer ref.c
-C:\iot_bigdata\c_study_basic\3_internal_function\2_string\q21-2_1_answer ref.c(21,19): warning C4267:  '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\iot_bigdata\c_study_basic\3_internal_function\2_string\q21-2_1_answer ref.c(26,20): warning C4013:  'ConvToInt'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-q21-2_1_answer ref.obj : error LNK2019: ConvToInt 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
-C:\iot_bigdata\c_study_basic\VisualStudion_Runtime_Test\x64\Debug\Test1.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+﻿  24_1_1.c
+  Test1.vcxproj -> C:\iot_bigdata\c_study_basic\VisualStudion_Runtime_Test\x64\Debug\Test1.exe
